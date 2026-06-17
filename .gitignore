@@ -1,0 +1,57 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secrets*
+private/
+
+# Codex/local agent state
+.codex/
+.Codex/
+codex-*.jsonl
+*.local.json
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+.vite/
+.cache/
+coverage/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary and scratch files
+tmp/
+temp/
+.tmp/
+.temp/
+scratch/
+tmp-*
+
+# Large/generated media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.pdf
+*.zip
+*.tar
+*.gz
+*.mp3
+*.wav
+*.mp4
+*.mov
+*.avi
